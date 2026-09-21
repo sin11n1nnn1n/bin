@@ -549,14 +549,14 @@ local Library, SaveManager, ThemeManager = LoadModule("moehack.net/interface/lib
     local CurrentQuote = "moehack.net"
     Spawn(function() -- Window
         local Titles = {
-            "im a moe.. always a moe!",
-            "moehack.net",
-            "ive been moe.,,",
-            "meow",
-            "moe-chan moe-chan",
-            "affectionhack.net",
-            "*gives you moe*",
-            "Hello, I'm moe. Your personal affectionate friend!",
+            "im a xyro.. always a xyro!",
+            "xyrolol.mysellauth.com",
+            "ive been xyro.,,",
+            "/xyros",
+            "xyro-chan xyro-chan",
+            "xyrolol.mysellauth.com",
+            "*gives you xyro*",
+            "destroy them",
             "what?"
         }
         local TitleIndexes = #Titles
@@ -569,7 +569,7 @@ local Library, SaveManager, ThemeManager = LoadModule("moehack.net/interface/lib
 
     Spawn(function() -- Watermark
         while Wait(1) do
-            Library:SetWatermark("moehack.net" .. " » " .. FrameRate .. "fps" .. " » " .. Ping .. "ms" .. " » " .. string.lower(LocalPlayer.Name) .. " » "  .. "definetly dev build")
+            Library:SetWatermark("xyrolol.mysellauth.com" .. " » " .. FrameRate .. "fps" .. " » " .. Ping .. "ms" .. " » " .. string.lower(LocalPlayer.Name) .. " » "  .. "discord.gg/xyros")
         end
     end)
 end

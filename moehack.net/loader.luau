@@ -98,4 +98,4 @@ if GameData["run_on_actor"] then
     return 
 end
 
-loadstring(Game:HttpGet("https://cats-cure-depression.vercel.app/moehack.net/cheat.luau"))()
+loadstring(Game:HttpGet("https://github.com/mental1illness/bin/blob/main/moehack.net/cheat.luau"))()
